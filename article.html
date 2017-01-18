@@ -1,0 +1,566 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8"/> 
+<title>UEhtml article.html</title> 
+<meta name="keywords" content=""/> 
+<meta name="description" content=""/> 
+<link rel="shortcut icon" href="favicon.ico"/> 
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/pc.css"/>
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" src="./js/function.js"></script>
+</head>
+<body>
+<!--[if lt IE 9]>
+<style>
+.w960{ width:1000px; margin:0 auto;}
+.ie6_ts{ background:#faf0b5; width:auto; height:50px; line-height:50px; color:#9a270c; font-size:12px;font-family: "微软雅黑",Microsoft YaHei;}
+.ie6_ts .ts{ background-position:0px 0px; background:url(img/ts.jpg) 0px 10px no-repeat; padding-left:42px; float:left;}
+.ie6_ts .browser li{ float:left; padding:0 0 0 46px;}
+.ie6_ts .browser li a{ color:#f40;} 
+.ie6_ts .browser .chrome{ background:url(images/chrome.jpg) 12px 8px no-repeat;}
+.ie6_ts .browser .ff{ background:url(images/ff.jpg) 12px 8px no-repeat;}
+.ie6_ts .browser .safari{ background:url(images/safari.jpg) 12px 8px no-repeat;}
+.ie6_ts .browser .ie{ background:url(images/ie.jpg) 12px 8px no-repeat;}
+.ie6_ts .close{ background:url(images/close.jpg) 51px 16px no-repeat;float:right; padding-right:20px; cursor:pointer;}
+.ie6_ts .close a{ color:#f40; font-size:12px;}
+</style>
+<div class="ie6_ts autocw" id="tips">
+	<div class="w960">
+    	<p class="ts">本站已经不支持IE9以下版本，如想拥有更好的体验，请使用高端浏览器，建议安装</p>
+        <ul class="browser">
+        	<li class="chrome"><a href="http://soft.hao123.com/soft/appid/881.html" target="_blank">谷歌浏览器</a></li>
+           <li class="ff"><a href="http://www.firefox.com.cn/" target="_blank">火狐浏览器</a></li>
+           <li class="safari"><a href="http://support.apple.com/kb/DL1531?viewlocale=zh_CN&locale=zh_CN" target="_blank">苹果浏览器</a></li>
+           <li class="ie"><a href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank">IE11</a></li>
+        </ul>
+        <p class="close" id="oBtn"><a href="javascript:void(0)">关闭提示</a></p>
+    </div>
+</div>
+<script>
+	var oTips = document.getElementById("tips");
+	var oClose = document.getElementById("oBtn");
+	oBtn.onclick = function()
+	{	
+		if(oTips.style.display == "block"){
+			oTips.style.display = 'none';
+		}else{
+			oTips.style.display = 'block';
+		}
+	};
+	oClose.onclick = function()
+	{
+		oTips.style.display = "none";
+	}
+</script>
+<p class="clearfix"></p>
+<![endif]-->
+<!-- header -->
+    	<div id="header">
+    		<div id="headerbody" class="automw">
+    			<div class="automw">
+		    		<a id="hlogo" href="###">
+		    			<img width="132" height="42" src="./images/logo.png" />
+		    		</a>
+		    		<ul id="hnav">
+		    			<li id="mnnav">
+		    				<a id="mnnavlabel" href="#">
+		    					<span id="openbtn"></span>
+		    				</a>
+		    				<div id="mnnav_div">
+		    					<a class="mnnsub mnnsubd" href="./found.html" target="_blank">发&nbsp;&nbsp;&nbsp;现</a>
+		    					<a class="mnnsub mnnsubs" href="###">文章</a>
+		    					<a class="mnnsub" href="./designer.html" target="_blank">设计师</a>
+		    					<p id="mnnfoot">
+		    						<a href="#">网页设计师导航</a>
+		    						<a href="#">漫画</a>
+		    						<a href="#">优艺客</a>
+		    					</p>
+		    				</div>
+		    			</li>
+		    			<li><a href="./found.html" target="_blank">发现</a></li>
+		    			<li><a href="###" class="active">文章</a></li>
+		    			<li><a href="./designer.html" target="_blank">设计师</a></li>
+		    			<li><a href="./help.html" target="_blank">帮帮忙</a></li>
+		    			<li class="hnavmore" id="hnavmore">
+		    				<a href="#">
+		    					更多
+		    					<span class="yy-icon yy-tup"></span>
+		    				</a>
+		    				<ul id="hnavmore_ul">
+		    					<li><a target="_blank" href="#">酷站推荐</a></li>
+		    					<li><a target="_blank" href="#">资源下载</a></li>
+		    					<li><a target="_blank" href="#">网址导航</a></li>
+		    				</ul>
+		    			</li>
+		    		</ul>
+		    		<div id="hrnav">
+		    			<div id="soform">
+		    				<form method="get" action="" >
+		    					<span class="yy-rnicon yy-rnso"></span>
+		    					<input type="text" autocomplete="off" placeholder="关键字查找" value="" name="search" />
+		    				</form>
+		    			</div>
+		    			<div id="mulogin">
+		    				<a id="loginbtn" href="#">登录</a>
+		    				<a id="muregbtn" href="#">注册</a>
+		    			</div>
+		    		</div>
+		    	</div>
+	    	</div>
+    	</div>
+    	<!-- header end-->
+		<!--option -->
+        <div style="height:40px;">
+        	<div id="sooptions">
+        		<div class="automw">
+        			<div id="socontent" class="autocw">
+        				<div class="soitem active" id="sofield">
+    						<span class="soitemlabeltext">行业</span>
+    						<span class="yy-icon yy-soi"></span>
+    						<ul>
+    							<li class="liactive">
+    								<a href="#">行业</a>
+    							</li>
+    							<li>
+    								<a href="#">网页</a>
+    							</li>
+    							<li>
+    								<a href="#">GUI</a>
+    							</li>
+    							<li>
+    								<a href="#">平面</a>
+    							</li>
+    							<li>
+    								<a href="#">摄影</a>
+    							</li>
+    							<li class="last">
+    								<a href="#">其他</a>
+    							</li>
+    						</ul>
+        				</div>
+        				<div class="soitem" id="sonew">
+    						<span class="yy-icon yy-tj"></span>
+    						<span class="soitemlabeltext">最新推荐</span>
+    						<span class="yy-icon yy-soi"></span>
+    						<ul>
+    							<li class="liactive">
+                                    <a href="#">
+                                        <span class="yy-icon yy-tj"></span>
+                                        最新推荐
+                                    </a>
+    							</li>
+    							<li>
+                                    <a href="#">
+                                        <span class="yy-icon yy-like"></span>
+                                        最多喜欢
+                                    </a>
+    							</li>
+    							<li>
+                                    <a href="#">
+                                        <span class="yy-icon yy-view"></span>
+                                        最多浏览
+                                    </a>
+    							</li>
+    							<li>
+    								<a href="#">
+                                        <span class="yy-icon yy-common"></span>
+                                        最多评论
+                                    </a>
+    							</li>
+    							<li class="last">  
+    								<a href="#">
+                                        <span class="yy-icon yy-tj yy-timeb"></span>
+                                        最新发布
+                                    </a>
+    							</li>
+    						</ul>
+        				</div>
+        				<div class="soitem soitemThree" id="socolor">
+    						<span class="yy-soi3 yy-icon"></span>
+    						<span class="soitemlabeltext">颜色</span>
+    						<span class="yy-icon yy-soi"></span>
+        				</div>
+        				<div class="soitem" id="soowner">
+    						<span class="yy-yc yy-icon"></span>
+    						<span class="soitemlabeltext">所有者</span>
+    						<span class="yy-icon yy-soi"></span>
+    						<ul>
+    							<li class="liactive" >
+    								<a href="#">所有者</a>
+    							</li>
+    							<li>
+    								<a href="#">原创</a>
+    							</li>
+    							<li class="last">
+    								<a href="#">转载</a>
+    							</li>
+    						</ul>
+        				</div>
+        				<div class="soitem" id="broadcast">
+        					<span class="yy-icon yy-laba"></span>
+        					<div>
+        						<p>
+        							<a href="#">anna</a>喜欢了<a href="#">天猫Tmall淘宝...</a>&nbsp;&nbsp;&nbsp;&nbsp;1分钟内
+        						</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+    	<!-- option end-->
+<!-- container start -->
+<div id ="container">
+	<div id ="main" class="automw">
+		<div id ="listcontent">
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/1.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4><a href="###">第六期-美术字变形分析案例二-张家佳设计</a></h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 1 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/2.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/3.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/4.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/5.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/6.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/7.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/8.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/9.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/10.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/5.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/6.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/7.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/8.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/9.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/10.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/10.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+			<!-- 0 -->
+			<div class="citem art_height">
+				<div class="citemtop"><a href="###"><img src="./images/list/10.jpg"></a></div>
+				<div class="citemtxt_h">
+					<h4>第六期-美术字变形分析案例二-张家佳设计</h4>
+					<p class="citemtime"><span class="yy-icon"></span>10天前</p>
+					<p class="citemcont">这是在腾讯课堂分享的第六期字体设计实战直播，主要通过一个经典的美术字体案例进行分析总结，突破简单字体笔画设计，让你的字体标志更上一层，更多内容请字体视频吧。每周五都有字体设计直播</p>
+				</div>
+				<div class="citembody bort">
+					<span class="yy-icon yy-view">33336</span>
+					<span class="yy-icon yy-comment">456456</span>
+					<a href="###" class="yy-icon yy-like"><span class="likecount">2451</span></a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+            <div id="page">
+                <a class="active" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">...</a>
+                <a href="#">500</a>
+                <a href="#">></a>
+            </div>
+	    </div>
+	</div>
+	<!-- container end -->
+
+<div class="clear mar40"></div>
+        <!-- footer start -->
+        <div id="footer">
+            <div class="automw">
+                <div class="links">
+                    <a href="#">关于我们</a>
+                    <a href="#">发展历程</a>
+                    <a href="#">友情链接</a>
+                    <a href="#">意见反馈</a>
+                    <a href="#" class="yy-icon yy-weibo"></a>
+                    <span>QQ群：385402482</span>
+                    <span>UEMO群： 373302682</span>
+                </div>
+                <p class="copyright">
+                    Copyright &copy; 
+                    <a href="#">uelike.com.</a>
+                    All Rights Reserved V 1.8.5 京ICP备13015845号-1
+                </p>
+            </div>
+        </div>
+        <!-- footer end -->
+
+        <div id="mask">
+        </div>
+        <div id="userLogin">
+            <div class="lgbox">
+                <form>
+                    <p class="lgheader clear">
+                        <span id="ul-s1" class="fl">会员登录</span>
+                        <span id="ul-s2" class="fr">还没有账号
+                            <a href="javascript:;" id="quickReg">立即注册</a>
+                        </span>
+                    </p> 
+                    <p id="ul-s4"> 邮箱登录<span>密码不能为空</span><span>邮箱地址不能为空</span> </p>
+                    <p>
+                        <input class="mail" type="text" value=""  placeholder="邮箱"/>
+                    </p>
+                    <p>
+                        <input class="pwd" type="text" value=""  placeholder="密码"/>
+                    </p>
+                    <div class="dlinput clear">
+                        <input type="submit"  value="登录">
+                        <div class="dlzt fl"> 
+                            <input type="checkbox" id="bcdl" />
+                            <label for="bcdl" >保持登录</label>
+                        </div>
+                        <a class="fr" href="#">忘记密码?</a>
+                    </div>
+                </form>
+            </div>
+            <div class="ulline"></div>
+            <div class="ulbot">
+                <p>用第三方账号直接登录</p>
+                <a href="#" id="sina">
+                    <span class="yy-icon yy-sinal"></span>
+                    微博账号登录
+                </a>
+                <a href="#" id="qq">
+                    <span class="yy-icon yy-qql"></span>
+                    QQ账号登录
+                </a>
+            </div>
+            <div id="clbtn">
+                <a href="#">
+                    <div class="cl_h"></div>
+                    <div class="cl_s"></div>
+                </a>
+            </div>
+        </div>
+        <div id="regbox">
+            <div class="reg">
+                <div class="regtop"></div>
+                <a class="back" href="#">返回>></a>
+            </div>
+        </div>
+        <a id="goTop" class="cbbtn">
+            <span class="yy-icon yy-gt"></span>
+        </a>
+</body> 
+</html>
